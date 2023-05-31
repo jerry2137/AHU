@@ -1,0 +1,99 @@
+[2023-03-02 10:23:37.172999]
+[2023-03-16 09:48:28.872244]
+[2023-03-16 10:08:31.790885]
+https://eadvantage.siemens.com/remote/release/meter/5263481/consumption?dateFrom=2%2F28%2F1995%2023%3A59%3A59&dateTo=3%2F16%2F2023%2000%3A00%3A00&resolution=40
+cannot download the required data (5263481) with error code 400
+https://eadvantage.siemens.com/remote/release/meter/5263482/consumption?dateFrom=2%2F28%2F1995%2023%3A59%3A59&dateTo=3%2F16%2F2023%2000%3A00%3A00&resolution=40
+cannot download the required data (5263482) with error code 400
+https://eadvantage.siemens.com/remote/release/meter/5263619/consumption?dateFrom=2%2F28%2F1995%2023%3A59%3A59&dateTo=3%2F16%2F2023%2000%3A00%3A00&resolution=40
+cannot download the required data (5263619) with error code 400
+https://eadvantage.siemens.com/remote/release/meter/5263625/consumption?dateFrom=2%2F28%2F1995%2023%3A59%3A59&dateTo=3%2F16%2F2023%2000%3A00%3A00&resolution=40
+cannot download the required data (5263625) with error code 400
+d:\test_development\AHU\download_EAdventage.py:133: FutureWarning: Not prepending group keys to the result index of transform-like apply. In the future, the group keys will be included in the index, regardless of whether the applied function returns a like-indexed object.
+To preserve the previous behavior, use
+
+	>>> .groupby(..., group_keys=False)
+
+To adopt the future behavior and silence this warning, use 
+
+	>>> .groupby(..., group_keys=True)
+  summary_df = df.groupby(df.columns.str.rsplit('-', n=1).str[0].str.replace('-AHU', ''), axis=1).apply(summarise).T
+https://eadvantage.siemens.com/remote/release/meter/5263481/consumption?dateFrom=12%2F31%2F2022%2023%3A59%3A59&dateTo=2%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263482/consumption?dateFrom=12%2F31%2F2022%2023%3A59%3A59&dateTo=2%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263619/consumption?dateFrom=12%2F31%2F2022%2023%3A59%3A59&dateTo=2%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263625/consumption?dateFrom=12%2F31%2F2022%2023%3A59%3A59&dateTo=2%2F1%2F2023%2000%3A00%3A00&resolution=40
+Traceback (most recent call last):
+  File "d:\test_development\AHU\download_EAdventage.py", line 1431, in <module>
+    sys.stdout.close()
+  File "d:\test_development\AHU\download_EAdventage.py", line 1423, in window
+    
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1429, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+[2023-03-16 10:41:30.240537]
+Traceback (most recent call last):
+  File "d:\test_development\AHU\download_EAdventage.py", line 1437, in <module>
+    
+  File "d:\test_development\AHU\download_EAdventage.py", line 1429, in window
+    
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1429, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+[2023-03-16 10:42:07.344513]
+Traceback (most recent call last):
+  File "d:\test_development\AHU\download_EAdventage.py", line 1436, in <module>
+    window()
+  File "d:\test_development\AHU\download_EAdventage.py", line 1428, in window
+    window.mainloop()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1429, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+[2023-03-16 10:42:27.512024]
+https://eadvantage.siemens.com/remote/release/meter/5263481/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263482/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263619/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263625/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263678/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263471/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263476/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263504/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263561/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263567/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263629/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263635/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263647/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263648/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263661/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263662/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263677/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263680/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+Traceback (most recent call last):
+  File "d:\test_development\AHU\download_EAdventage.py", line 1436, in <module>
+    
+  File "d:\test_development\AHU\download_EAdventage.py", line 1428, in window
+    
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1429, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+[2023-03-16 10:52:31.189057]
+[2023-03-16 11:02:03.895341]
+https://eadvantage.siemens.com/remote/release/meter/5263481/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263482/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+https://eadvantage.siemens.com/remote/release/meter/5263619/consumption?dateFrom=1%2F31%2F2023%2023%3A59%3A59&dateTo=3%2F1%2F2023%2000%3A00%3A00&resolution=40
+[2023-03-16 11:04:34.855130]
+[2023-03-16 11:04:55.565940]
+Traceback (most recent call last):
+  File "d:\test_development\AHU\download_EAdventage.py", line 1458, in <module>
+    window()
+  File "d:\test_development\AHU\download_EAdventage.py", line 1424, in window
+    Checkbutton(window, text='with summary', variable=summary_variable).grid(column=1, row=19)
+NameError: name 'summary_variable' is not defined
+[2023-03-16 11:05:08.048361]
+[2023-03-16 11:05:15.175516]
+[2023-03-16 11:06:24.452252]
+False
+True
+False
+[2023-04-30 13:16:23.950046]
+[2023-05-04 15:12:50.698443]
+[2023-05-29 11:49:14.703521]
